@@ -1,23 +1,24 @@
 ---
-title: Docker
+title: Docker学习总结
 
 ---
 
-# Docker总结
+# Docker学习总结
 
 ![Docker for Beginners: An Introduction to Docker, Images, and Containers](./upload/docker-tutorial-for-beginners.gif)
 
 ### 为什么要使用Docker？
 
-一款产品有很多环境，test、dev、prod等。环境配置对于运维非常麻烦，费时费力。Docker采用集装箱思想，将应用程序中间件打入集装箱，每个箱子相互隔离，谁也不影响谁。
+如果你在团队协作时，总因开发、测试环境不一致导致 Bug 频发，那么你需要它！​
 
-使用Docker可以让应用程序快速部署并且更容易实现跨环境迁移和管理，为应用程序提供一个可复用的容器，在不同操作系统中部署相同应用实现跨平台应用开发。
+如果你为应用部署到不同服务器时频繁出现兼容性问题而苦恼，那么你需要它！​
 
-相比于传统的在虚拟机中一个一个安装中间件，Docker可以做到：节约资源、轻量化、无需另外安装宿主机，跨平台灵活性，容器之间环境隔离（比如在Windows安装一些复杂应用导致系统环境乱糟糟、污染注册表等问题），可复用、可迁移。
+如果你希望快速实现应用的迁移和备份，减少运维的繁琐操作，那么你需要它！​
+
+如果你想要隔离不同项目之间的运行环境，避免相互干扰，那么你需要它！
 
 
-
-Docker官网：[](https://www.docker.com/)
+[Docker官网](https://www.docker.com/)
 
 
 
@@ -29,8 +30,9 @@ Docker官网：[](https://www.docker.com/)
 
 仓库 repository：仓库就是存储镜像的地方
 
+假如你是做月饼的，你需要去商店（仓库）购买月饼模具（镜像），然后使用不同的模具做出不同的月饼（容器），嘿，反正就这个意思咯。
 
-
+Ubuntu、Debian都可以，服务器安装就不在这里说了。
 ### Ubuntu虚拟机安装Docker
 
 #### 1、卸载旧版本
