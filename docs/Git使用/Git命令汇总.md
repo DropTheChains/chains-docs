@@ -46,7 +46,7 @@ $ git status	            //查看工作区中文件当前状态
 
 
 $ git reset HEAD^           // 回退所有内容到上一个版本  
-$ git reset HEAD^ hello.php // 回退 hello.php 文件的版本到上一个版本  
+$ git reset HEAD^ hello.py // 回退 hello.py 文件的版本到上一个版本  
 $ git  reset  052e          // 回退到指定版本
 ```
 
@@ -65,17 +65,15 @@ $ git checkout -- test.txt
 
 $ ssh-keygen -t rsa -C "youremail@example.com"	//创建SSH Key
 
-$ git remote add origin git@github.com:Daisy/AKgit.git	//关联
+$ git remote add origin https://github.com/DropTheChains/chains-docs.git	//关联
 $ git push -u origin master	//将本地内容推送到远程仓库（第一次）
 $ git push origin master	//将本地内容推送到远程仓库（之后）
 
 $ git remote -v        //查看远程仓库信息
 $ git remote rm origin	//删除远程仓库（解绑）
 
-$ git clone git@github.com: Daisy/AKgit.git	//克隆远程仓库
-//克隆之后使用和查看
-$ cd gitskills
-$ ls
+$ git clone https://github.com/DropTheChains/chains-docs.git	//克隆远程仓库
+
 
 $ git remote	//查看远程库的信息
 $ git remote -v	//查看远程库的详细信息
